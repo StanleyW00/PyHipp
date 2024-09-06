@@ -27,4 +27,3 @@ print(time.localtime()); \
 print(time.time()-t0);"
 
 aws sns publish --topic-arn arn:aws:sns:ap-southeast-1:039612885625:awsnotify --message "RPLSplit01JobDone"
-
